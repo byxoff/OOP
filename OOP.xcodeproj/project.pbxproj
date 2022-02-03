@@ -15,6 +15,8 @@
 		03AB4A1A27A6A72200A48DDE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03AB4A0727A6A72200A48DDE /* Assets.xcassets */; };
 		03AB4A2427A6ACDF00A48DDE /* classes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AB4A2327A6ACDF00A48DDE /* classes.swift */; };
 		03AB4A2527A6ACDF00A48DDE /* classes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AB4A2327A6ACDF00A48DDE /* classes.swift */; };
+		03FF293827ABE9E100AA4A2E /* Buttons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03FF293727ABE9E100AA4A2E /* Buttons.swift */; };
+		03FF293927ABE9E100AA4A2E /* Buttons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03FF293727ABE9E100AA4A2E /* Buttons.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +27,7 @@
 		03AB4A1227A6A72200A48DDE /* OOP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OOP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		03AB4A1427A6A72200A48DDE /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
 		03AB4A2327A6ACDF00A48DDE /* classes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = classes.swift; sourceTree = "<group>"; };
+		03FF293727ABE9E100AA4A2E /* Buttons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Buttons.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +64,7 @@
 				03AB4A0627A6A72100A48DDE /* ContentView.swift */,
 				03AB4A2327A6ACDF00A48DDE /* classes.swift */,
 				03AB4A0727A6A72200A48DDE /* Assets.xcassets */,
+				03FF293727ABE9E100AA4A2E /* Buttons.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -183,6 +187,7 @@
 				03AB4A2427A6ACDF00A48DDE /* classes.swift in Sources */,
 				03AB4A1727A6A72200A48DDE /* ContentView.swift in Sources */,
 				03AB4A1527A6A72200A48DDE /* OOPApp.swift in Sources */,
+				03FF293827ABE9E100AA4A2E /* Buttons.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -193,6 +198,7 @@
 				03AB4A2527A6ACDF00A48DDE /* classes.swift in Sources */,
 				03AB4A1827A6A72200A48DDE /* ContentView.swift in Sources */,
 				03AB4A1627A6A72200A48DDE /* OOPApp.swift in Sources */,
+				03FF293927ABE9E100AA4A2E /* Buttons.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
