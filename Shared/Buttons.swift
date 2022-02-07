@@ -30,6 +30,7 @@ struct Buttons: View {
                     HStack{
                         CallSmallButton()
                         NetSmallButton()
+    
                     }
                     GoButton()
                     CancelButton()
@@ -38,8 +39,26 @@ struct Buttons: View {
                     ChooseServiceButton()
                     ChooseTimeButton()
                     ChooseDataButton()
+                
                 }
+                VStack{
+                    VerifyButton()
+                    SeachDataButton()
+                    OpenButton()
+                    ChangePhotoButton()
+                    SavePhotoButton()
+                    ChangeSaveButton()
+                    AddButton()
+                    AddCarButton()
+                    ApplyButton()
+                    TaraSmallButton()
+                    
                 }
+                VStack{
+                    NotButton()
+                    }
+                }
+                
                 Spacer()
             }
         }.ignoresSafeArea(.all).background(Color.black)
@@ -93,6 +112,66 @@ struct AgreeButton: View {
             .padding(.horizontal, 40.0)
             .padding(.vertical, 10.0)
     }.background(Color("tiffani")).cornerRadius(15.0)
+    
+})
+}
+}
+struct AddButton: View {
+    var body: some View {
+   Button(action: {print("сработало")}, label: {
+    HStack {
+        Text("добавить")
+            .font(.title3)
+            .fontWeight(.bold)
+            .foregroundColor(Color.black)
+            .padding(.horizontal, 40.0)
+            .padding(.vertical, 10.0)
+    }.background(Color("yellowButtons")).cornerRadius(15.0)
+    
+})
+}
+}
+struct ChangePhotoButton: View {
+    var body: some View {
+   Button(action: {print("сработало")}, label: {
+    HStack {
+        Text("Cменить фото")
+            .font(.title3)
+            .fontWeight(.bold)
+            .foregroundColor(Color.black)
+            .padding(.horizontal, 90.0)
+            .padding(.vertical, 10.0)
+    }.background(Color("yellowButtons")).cornerRadius(15.0)
+    
+})
+}
+}
+struct SavePhotoButton: View {
+    var body: some View {
+   Button(action: {print("сработало")}, label: {
+    HStack {
+        Text("Cохранить фото")
+            .font(.title3)
+            .fontWeight(.bold)
+            .foregroundColor(Color.black)
+            .padding(.horizontal, 90.0)
+            .padding(.vertical, 10.0)
+    }.background(Color.yellow).cornerRadius(15.0)
+    
+})
+}
+}
+struct  ChangeSaveButton: View {
+    var body: some View {
+   Button(action: {print("сработало")}, label: {
+    HStack {
+        Text("Сохранить изменения")
+            .font(.title3)
+            .fontWeight(.bold)
+            .foregroundColor(Color.black)
+            .padding(.horizontal, 90.0)
+            .padding(.vertical, 10.0)
+    }.background(Color.yellow).cornerRadius(15.0)
     
 })
 }
@@ -177,6 +256,21 @@ struct ChooseDataButton: View {
         })
     }
 }
+struct AddCarButton: View {
+    var body: some View {
+        Button(action: {print("сработало")}, label: {
+            HStack {
+                Text("Добавить автомобиль")
+                    .font(.title3)
+                    .fontWeight(.bold)
+                    .foregroundColor(Color.black)
+                    .padding(.horizontal, 90.0)
+                    .padding(.vertical, 15.0)
+            }.background(Color("yellowButtons")).cornerRadius(15.0)
+            
+        })
+    }
+}
 struct CancelButton: View {
     var body: some View {
         Button(action: {print("сработало")}, label: {
@@ -233,19 +327,14 @@ struct NetSmallButton: View {
         })
     }
 }
-struct NetButton: View {
+
+struct TaraSmallButton: View {
     var body: some View {
         Button(action: {print("сработало")}, label: {
             HStack {
-                Image(systemName: "network").foregroundColor(Color.black)
-                    .padding(.leading, 20.0).font(.system(size: 24))
-                    Text("Открыть сайт")
-                    .font(.title2)
-                    .fontWeight(.bold)
-                    .foregroundColor(Color.black)
-                    .padding(.trailing, 20.0)
-                    .padding(.vertical, 10.0)
-            }.background(Color("yellowButtons")).cornerRadius(25.0)
+                Image(systemName: "trash.fill").foregroundColor(Color.white)
+                    .padding(.all, 10.0).font(.system(size: 28))
+            }.background(Color.red).cornerRadius(25.0)
             
         })
     }
@@ -288,11 +377,86 @@ struct СontinueButton: View {
         })
     }
 }
+struct  VerifyButton: View {
+    var body: some View {
+        Button(action: {print("сработало")}, label: {
+            HStack {
+                Text("подтвердить")
+                    .font(.title3)
+                    .fontWeight(.bold)
+                    .foregroundColor(Color.white)
+                    .padding(.horizontal, 80.0)
+                    .padding(.vertical, 10.0)
+            }.background(Color.gray).cornerRadius(10)
+            
+        })
+    }
+}
 struct ChooseServiceButton: View {
     var body: some View {
         Button(action: {print("сработало")}, label: {
             HStack {
                 Text("Выбрать услугу")
+                    .font(.title2)
+                    .fontWeight(.bold)
+                    .foregroundColor(Color.black)
+                    .padding(.horizontal, 90.0)
+                    .padding(.vertical, 15.0)
+            }.background(Color("yellowButtons")).cornerRadius(15.0)
+            
+        })
+    }
+}
+struct OpenButton: View {
+    var body: some View {
+        Button(action: {print("сработало")}, label: {
+            HStack {
+                Text("открыть")
+                    .font(.title2)
+                    .fontWeight(.bold)
+                    .foregroundColor(Color.black)
+                    .padding(.horizontal, 90.0)
+                    .padding(.vertical, 15.0)
+            }.background(Color("yellowButtons")).cornerRadius(15.0)
+            
+        })
+    }
+}
+struct ApplyButton: View {
+    var body: some View {
+        Button(action: {print("сработало")}, label: {
+            HStack {
+                Text("Применить")
+                    .font(.title2)
+                    .fontWeight(.bold)
+                    .foregroundColor(Color.black)
+                    .padding(.horizontal, 90.0)
+                    .padding(.vertical, 15.0)
+            }.background(Color("yellowButtons")).cornerRadius(15.0)
+            
+        })
+    }
+}
+struct NotButton: View {
+    var body: some View {
+        Button(action: {print("сработало")}, label: {
+            HStack {
+                Text("нет")
+                    .font(.title2)
+                    .fontWeight(.bold)
+                    .foregroundColor(Color.black)
+                    .padding(.horizontal, 90.0)
+                    .padding(.vertical, 15.0)
+            }.background(Color("yellowButtons")).cornerRadius(15.0)
+            
+        })
+    }
+}
+struct SeachDataButton: View {
+    var body: some View {
+        Button(action: {print("сработало")}, label: {
+            HStack {
+                Text("Найти мойку")
                     .font(.title2)
                     .fontWeight(.bold)
                     .foregroundColor(Color.black)
