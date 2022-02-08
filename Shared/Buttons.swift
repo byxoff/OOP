@@ -51,7 +51,7 @@ struct Buttons: View {
                     AddButton()
                     AddCarButton()
                     ApplyButton()
-                    TaraSmallButton()
+                    TrashSmallButton()
                     
                 }
                 VStack{
@@ -303,6 +303,23 @@ struct CallButton: View {
         })
     }
 }
+struct NetButton: View {
+    var body: some View {
+        Button(action: {print("сработало")}, label: {
+            HStack {
+                Image(systemName: "network").foregroundColor(Color.black)
+                    .padding(.leading, 20.0).font(.system(size: 24))
+                    Text("Открыть сайт")
+                    .font(.title2)
+                    .fontWeight(.bold)
+                    .foregroundColor(Color.black)
+                    .padding(.trailing, 20.0)
+                    .padding(.vertical, 10.0)
+            }.background(Color("yellowButtons")).cornerRadius(25.0)
+            
+        })
+    }
+}
 struct CallSmallButton: View {
     var body: some View {
         Button(action: {print("сработало")}, label: {
@@ -328,12 +345,14 @@ struct NetSmallButton: View {
     }
 }
 
-struct TaraSmallButton: View {
+struct TrashSmallButton: View {
     var body: some View {
         Button(action: {print("сработало")}, label: {
             HStack {
                 Image(systemName: "trash.fill").foregroundColor(Color.white)
-                    .padding(.all, 10.0).font(.system(size: 28))
+                    .font(.system(size: 28))
+                    .padding(.horizontal, 1.5)
+                    .padding(.all, 10.0)
             }.background(Color.red).cornerRadius(25.0)
             
         })
