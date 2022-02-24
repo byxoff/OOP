@@ -15,53 +15,17 @@
 		03AB4A1A27A6A72200A48DDE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03AB4A0727A6A72200A48DDE /* Assets.xcassets */; };
 		03AB4A2427A6ACDF00A48DDE /* classes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AB4A2327A6ACDF00A48DDE /* classes.swift */; };
 		03AB4A2527A6ACDF00A48DDE /* classes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AB4A2327A6ACDF00A48DDE /* classes.swift */; };
+		03AD50AC27C784DE00AFD63F /* Shared in Resources */ = {isa = PBXBuildFile; fileRef = 03AD50AB27C784DE00AFD63F /* Shared */; };
+		03AD50B127C787EF00AFD63F /* HeadMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AD50AD27C787EF00AFD63F /* HeadMenu.swift */; };
+		03AD50B227C787EF00AFD63F /* Buttons in Resources */ = {isa = PBXBuildFile; fileRef = 03AD50AE27C787EF00AFD63F /* Buttons */; };
+		03AD50B327C787EF00AFD63F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03AD50AF27C787EF00AFD63F /* Assets.xcassets */; };
+		03AD50B427C787EF00AFD63F /* Lists in Resources */ = {isa = PBXBuildFile; fileRef = 03AD50B027C787EF00AFD63F /* Lists */; };
 		03FF293827ABE9E100AA4A2E /* Buttons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03FF293727ABE9E100AA4A2E /* Buttons.swift */; };
 		03FF293927ABE9E100AA4A2E /* Buttons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03FF293727ABE9E100AA4A2E /* Buttons.swift */; };
-		AA1D3FCE27C3A5070066E594 /* ChangeSaveButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1D3FB027C3A5050066E594 /* ChangeSaveButton.swift */; };
-		AA1D3FCF27C3A5070066E594 /* MailButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1D3FB127C3A5050066E594 /* MailButton.swift */; };
-		AA1D3FD027C3A5070066E594 /* TrashSmallButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1D3FB227C3A5050066E594 /* TrashSmallButton.swift */; };
-		AA1D3FD127C3A5070066E594 /* NetButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1D3FB327C3A5050066E594 /* NetButton.swift */; };
-		AA1D3FD227C3A5070066E594 /* SeachDataButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1D3FB427C3A5050066E594 /* SeachDataButton.swift */; };
-		AA1D3FD327C3A5070066E594 /* ChooseTimeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1D3FB527C3A5050066E594 /* ChooseTimeButton.swift */; };
-		AA1D3FD427C3A5070066E594 /* ApplyButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1D3FB627C3A5050066E594 /* ApplyButton.swift */; };
-		AA1D3FD527C3A5070066E594 /* NetSmallButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1D3FB727C3A5050066E594 /* NetSmallButton.swift */; };
-		AA1D3FD627C3A5070066E594 /* ReadyButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1D3FB827C3A5050066E594 /* ReadyButton.swift */; };
-		AA1D3FD727C3A5070066E594 /* ContinueNotPhotoButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1D3FB927C3A5050066E594 /* ContinueNotPhotoButton.swift */; };
-		AA1D3FD827C3A5070066E594 /* CancelButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1D3FBA27C3A5050066E594 /* CancelButton.swift */; };
-		AA1D3FD927C3A5070066E594 /* OpenButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1D3FBB27C3A5050066E594 /* OpenButton.swift */; };
-		AA1D3FDA27C3A5070066E594 /* AgreeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1D3FBC27C3A5050066E594 /* AgreeButton.swift */; };
-		AA1D3FDB27C3A5070066E594 /* StayButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1D3FBD27C3A5050066E594 /* StayButton.swift */; };
-		AA1D3FDC27C3A5070066E594 /* ChooseServiceButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1D3FBE27C3A5060066E594 /* ChooseServiceButton.swift */; };
-		AA1D3FDD27C3A5070066E594 /* CallButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1D3FBF27C3A5060066E594 /* CallButton.swift */; };
-		AA1D3FDE27C3A5070066E594 /* PhotoMadeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1D3FC027C3A5060066E594 /* PhotoMadeButton.swift */; };
-		AA1D3FDF27C3A5070066E594 /* NumTelButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1D3FC127C3A5060066E594 /* NumTelButton.swift */; };
-		AA1D3FE027C3A5070066E594 /* VerifyButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1D3FC227C3A5060066E594 /* VerifyButton.swift */; };
-		AA1D3FE127C3A5070066E594 /* AddfeedbackButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1D3FC327C3A5060066E594 /* AddfeedbackButton.swift */; };
-		AA1D3FE227C3A5070066E594 /* SiteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1D3FC427C3A5060066E594 /* SiteButton.swift */; };
-		AA1D3FE327C3A5070066E594 /* AddCarButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1D3FC527C3A5060066E594 /* AddCarButton.swift */; };
-		AA1D3FE427C3A5070066E594 /* ChangePhotoButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1D3FC627C3A5060066E594 /* ChangePhotoButton.swift */; };
-		AA1D3FE527C3A5070066E594 /* SavePhotoButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1D3FC727C3A5060066E594 /* SavePhotoButton.swift */; };
-		AA1D3FE627C3A5070066E594 /* NotButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1D3FC827C3A5060066E594 /* NotButton.swift */; };
-		AA1D3FE727C3A5070066E594 /* GoButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1D3FC927C3A5060066E594 /* GoButton.swift */; };
-		AA1D3FE827C3A5070066E594 /* GoGoButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1D3FCA27C3A5060066E594 /* GoGoButton.swift */; };
-		AA1D3FE927C3A5070066E594 /* AddButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1D3FCB27C3A5060066E594 /* AddButton.swift */; };
-		AA1D3FEA27C3A5070066E594 /* EscButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1D3FCC27C3A5060066E594 /* EscButton.swift */; };
-		AA1D3FEB27C3A5070066E594 /* ChooseDataButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1D3FCD27C3A5070066E594 /* ChooseDataButton.swift */; };
 		AA1D3FED27C3A6EE0066E594 /* NavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1D3FEC27C3A6EE0066E594 /* NavigationView.swift */; };
 		AA1D3FEF27C3B2A60066E594 /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1D3FEE27C3B2A60066E594 /* CustomTabBar.swift */; };
 		AA1D3FF127C3ECA50066E594 /* CustomTabNav.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1D3FF027C3ECA50066E594 /* CustomTabNav.swift */; };
 		AA1D3FF327C4F82F0066E594 /* SideBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1D3FF227C4F82F0066E594 /* SideBar.swift */; };
-		AA6DB5EF27BE56E400108E9D /* SelectButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA6DB5EE27BE56E400108E9D /* SelectButton.swift */; };
-		AA6DB5F827BE5B6100108E9D /* YellowButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA6DB5F027BE5B6100108E9D /* YellowButton.swift */; };
-		AA6DB5F927BE5B6100108E9D /* InfoButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA6DB5F127BE5B6100108E9D /* InfoButton.swift */; };
-		AA6DB5FA27BE5B6100108E9D /* СontinueButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA6DB5F227BE5B6100108E9D /* СontinueButton.swift */; };
-		AA6DB5FB27BE5B6100108E9D /* FeedBack.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA6DB5F327BE5B6100108E9D /* FeedBack.swift */; };
-		AA6DB5FC27BE5B6100108E9D /* Button1.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA6DB5F427BE5B6100108E9D /* Button1.swift */; };
-		AA6DB5FD27BE5B6100108E9D /* MoreButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA6DB5F527BE5B6100108E9D /* MoreButton.swift */; };
-		AA6DB5FE27BE5B6100108E9D /* EnterButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA6DB5F627BE5B6100108E9D /* EnterButton.swift */; };
-		AA6DB5FF27BE5B6100108E9D /* ServicesButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA6DB5F727BE5B6100108E9D /* ServicesButton.swift */; };
-		AA6DB60227BE5CAD00108E9D /* WashListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA6DB60127BE5CAD00108E9D /* WashListItem.swift */; };
-		AA6DB60427BE6ABE00108E9D /* WashListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA6DB60327BE6ABE00108E9D /* WashListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -72,52 +36,16 @@
 		03AB4A1227A6A72200A48DDE /* OOP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OOP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		03AB4A1427A6A72200A48DDE /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
 		03AB4A2327A6ACDF00A48DDE /* classes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = classes.swift; sourceTree = "<group>"; };
+		03AD50AB27C784DE00AFD63F /* Shared */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Shared; sourceTree = "<group>"; };
+		03AD50AD27C787EF00AFD63F /* HeadMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeadMenu.swift; sourceTree = "<group>"; };
+		03AD50AE27C787EF00AFD63F /* Buttons */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Buttons; sourceTree = "<group>"; };
+		03AD50AF27C787EF00AFD63F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		03AD50B027C787EF00AFD63F /* Lists */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Lists; sourceTree = "<group>"; };
 		03FF293727ABE9E100AA4A2E /* Buttons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Buttons.swift; sourceTree = "<group>"; };
-		AA1D3FB027C3A5050066E594 /* ChangeSaveButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChangeSaveButton.swift; sourceTree = "<group>"; };
-		AA1D3FB127C3A5050066E594 /* MailButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MailButton.swift; sourceTree = "<group>"; };
-		AA1D3FB227C3A5050066E594 /* TrashSmallButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrashSmallButton.swift; sourceTree = "<group>"; };
-		AA1D3FB327C3A5050066E594 /* NetButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetButton.swift; sourceTree = "<group>"; };
-		AA1D3FB427C3A5050066E594 /* SeachDataButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeachDataButton.swift; sourceTree = "<group>"; };
-		AA1D3FB527C3A5050066E594 /* ChooseTimeButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChooseTimeButton.swift; sourceTree = "<group>"; };
-		AA1D3FB627C3A5050066E594 /* ApplyButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApplyButton.swift; sourceTree = "<group>"; };
-		AA1D3FB727C3A5050066E594 /* NetSmallButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetSmallButton.swift; sourceTree = "<group>"; };
-		AA1D3FB827C3A5050066E594 /* ReadyButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReadyButton.swift; sourceTree = "<group>"; };
-		AA1D3FB927C3A5050066E594 /* ContinueNotPhotoButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContinueNotPhotoButton.swift; sourceTree = "<group>"; };
-		AA1D3FBA27C3A5050066E594 /* CancelButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CancelButton.swift; sourceTree = "<group>"; };
-		AA1D3FBB27C3A5050066E594 /* OpenButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpenButton.swift; sourceTree = "<group>"; };
-		AA1D3FBC27C3A5050066E594 /* AgreeButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AgreeButton.swift; sourceTree = "<group>"; };
-		AA1D3FBD27C3A5050066E594 /* StayButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StayButton.swift; sourceTree = "<group>"; };
-		AA1D3FBE27C3A5060066E594 /* ChooseServiceButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChooseServiceButton.swift; sourceTree = "<group>"; };
-		AA1D3FBF27C3A5060066E594 /* CallButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CallButton.swift; sourceTree = "<group>"; };
-		AA1D3FC027C3A5060066E594 /* PhotoMadeButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoMadeButton.swift; sourceTree = "<group>"; };
-		AA1D3FC127C3A5060066E594 /* NumTelButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NumTelButton.swift; sourceTree = "<group>"; };
-		AA1D3FC227C3A5060066E594 /* VerifyButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VerifyButton.swift; sourceTree = "<group>"; };
-		AA1D3FC327C3A5060066E594 /* AddfeedbackButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddfeedbackButton.swift; sourceTree = "<group>"; };
-		AA1D3FC427C3A5060066E594 /* SiteButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SiteButton.swift; sourceTree = "<group>"; };
-		AA1D3FC527C3A5060066E594 /* AddCarButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddCarButton.swift; sourceTree = "<group>"; };
-		AA1D3FC627C3A5060066E594 /* ChangePhotoButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChangePhotoButton.swift; sourceTree = "<group>"; };
-		AA1D3FC727C3A5060066E594 /* SavePhotoButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SavePhotoButton.swift; sourceTree = "<group>"; };
-		AA1D3FC827C3A5060066E594 /* NotButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotButton.swift; sourceTree = "<group>"; };
-		AA1D3FC927C3A5060066E594 /* GoButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoButton.swift; sourceTree = "<group>"; };
-		AA1D3FCA27C3A5060066E594 /* GoGoButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoGoButton.swift; sourceTree = "<group>"; };
-		AA1D3FCB27C3A5060066E594 /* AddButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddButton.swift; sourceTree = "<group>"; };
-		AA1D3FCC27C3A5060066E594 /* EscButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EscButton.swift; sourceTree = "<group>"; };
-		AA1D3FCD27C3A5070066E594 /* ChooseDataButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChooseDataButton.swift; sourceTree = "<group>"; };
 		AA1D3FEC27C3A6EE0066E594 /* NavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationView.swift; sourceTree = "<group>"; };
 		AA1D3FEE27C3B2A60066E594 /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
 		AA1D3FF027C3ECA50066E594 /* CustomTabNav.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabNav.swift; sourceTree = "<group>"; };
 		AA1D3FF227C4F82F0066E594 /* SideBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideBar.swift; sourceTree = "<group>"; };
-		AA6DB5EE27BE56E400108E9D /* SelectButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectButton.swift; sourceTree = "<group>"; };
-		AA6DB5F027BE5B6100108E9D /* YellowButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YellowButton.swift; sourceTree = "<group>"; };
-		AA6DB5F127BE5B6100108E9D /* InfoButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoButton.swift; sourceTree = "<group>"; };
-		AA6DB5F227BE5B6100108E9D /* СontinueButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "СontinueButton.swift"; sourceTree = "<group>"; };
-		AA6DB5F327BE5B6100108E9D /* FeedBack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedBack.swift; sourceTree = "<group>"; };
-		AA6DB5F427BE5B6100108E9D /* Button1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Button1.swift; sourceTree = "<group>"; };
-		AA6DB5F527BE5B6100108E9D /* MoreButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoreButton.swift; sourceTree = "<group>"; };
-		AA6DB5F627BE5B6100108E9D /* EnterButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnterButton.swift; sourceTree = "<group>"; };
-		AA6DB5F727BE5B6100108E9D /* ServicesButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServicesButton.swift; sourceTree = "<group>"; };
-		AA6DB60127BE5CAD00108E9D /* WashListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WashListItem.swift; sourceTree = "<group>"; };
-		AA6DB60327BE6ABE00108E9D /* WashListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WashListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,6 +70,7 @@
 			isa = PBXGroup;
 			children = (
 				03AB4A0427A6A72100A48DDE /* Shared */,
+				03AD50AB27C784DE00AFD63F /* Shared */,
 				03AB4A1327A6A72200A48DDE /* macOS */,
 				03AB4A0D27A6A72200A48DDE /* Products */,
 			);
@@ -150,8 +79,10 @@
 		03AB4A0427A6A72100A48DDE /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				AA6DB60027BE5C7D00108E9D /* Lists */,
-				AA6DB5ED27BE569900108E9D /* Buttons */,
+				03AD50AF27C787EF00AFD63F /* Assets.xcassets */,
+				03AD50AE27C787EF00AFD63F /* Buttons */,
+				03AD50AD27C787EF00AFD63F /* HeadMenu.swift */,
+				03AD50B027C787EF00AFD63F /* Lists */,
 				03AB4A0527A6A72100A48DDE /* OOPApp.swift */,
 				03AB4A0627A6A72100A48DDE /* ContentView.swift */,
 				03AB4A2327A6ACDF00A48DDE /* classes.swift */,
@@ -180,61 +111,6 @@
 				03AB4A1427A6A72200A48DDE /* macOS.entitlements */,
 			);
 			path = macOS;
-			sourceTree = "<group>";
-		};
-		AA6DB5ED27BE569900108E9D /* Buttons */ = {
-			isa = PBXGroup;
-			children = (
-				AA1D3FCB27C3A5060066E594 /* AddButton.swift */,
-				AA1D3FC527C3A5060066E594 /* AddCarButton.swift */,
-				AA1D3FC327C3A5060066E594 /* AddfeedbackButton.swift */,
-				AA1D3FBC27C3A5050066E594 /* AgreeButton.swift */,
-				AA1D3FB627C3A5050066E594 /* ApplyButton.swift */,
-				AA1D3FBF27C3A5060066E594 /* CallButton.swift */,
-				AA1D3FBA27C3A5050066E594 /* CancelButton.swift */,
-				AA1D3FC627C3A5060066E594 /* ChangePhotoButton.swift */,
-				AA1D3FB027C3A5050066E594 /* ChangeSaveButton.swift */,
-				AA1D3FCD27C3A5070066E594 /* ChooseDataButton.swift */,
-				AA1D3FBE27C3A5060066E594 /* ChooseServiceButton.swift */,
-				AA1D3FB527C3A5050066E594 /* ChooseTimeButton.swift */,
-				AA1D3FB927C3A5050066E594 /* ContinueNotPhotoButton.swift */,
-				AA1D3FCC27C3A5060066E594 /* EscButton.swift */,
-				AA1D3FC927C3A5060066E594 /* GoButton.swift */,
-				AA1D3FCA27C3A5060066E594 /* GoGoButton.swift */,
-				AA1D3FB127C3A5050066E594 /* MailButton.swift */,
-				AA1D3FB327C3A5050066E594 /* NetButton.swift */,
-				AA1D3FB727C3A5050066E594 /* NetSmallButton.swift */,
-				AA1D3FC827C3A5060066E594 /* NotButton.swift */,
-				AA1D3FC127C3A5060066E594 /* NumTelButton.swift */,
-				AA1D3FBB27C3A5050066E594 /* OpenButton.swift */,
-				AA1D3FC027C3A5060066E594 /* PhotoMadeButton.swift */,
-				AA1D3FB827C3A5050066E594 /* ReadyButton.swift */,
-				AA1D3FC727C3A5060066E594 /* SavePhotoButton.swift */,
-				AA1D3FB427C3A5050066E594 /* SeachDataButton.swift */,
-				AA1D3FC427C3A5060066E594 /* SiteButton.swift */,
-				AA1D3FBD27C3A5050066E594 /* StayButton.swift */,
-				AA1D3FB227C3A5050066E594 /* TrashSmallButton.swift */,
-				AA1D3FC227C3A5060066E594 /* VerifyButton.swift */,
-				AA6DB5F227BE5B6100108E9D /* СontinueButton.swift */,
-				AA6DB5F427BE5B6100108E9D /* Button1.swift */,
-				AA6DB5F627BE5B6100108E9D /* EnterButton.swift */,
-				AA6DB5F327BE5B6100108E9D /* FeedBack.swift */,
-				AA6DB5F127BE5B6100108E9D /* InfoButton.swift */,
-				AA6DB5F527BE5B6100108E9D /* MoreButton.swift */,
-				AA6DB5F727BE5B6100108E9D /* ServicesButton.swift */,
-				AA6DB5F027BE5B6100108E9D /* YellowButton.swift */,
-				AA6DB5EE27BE56E400108E9D /* SelectButton.swift */,
-			);
-			path = Buttons;
-			sourceTree = "<group>";
-		};
-		AA6DB60027BE5C7D00108E9D /* Lists */ = {
-			isa = PBXGroup;
-			children = (
-				AA6DB60127BE5CAD00108E9D /* WashListItem.swift */,
-				AA6DB60327BE6ABE00108E9D /* WashListView.swift */,
-			);
-			path = Lists;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -316,7 +192,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03AD50B227C787EF00AFD63F /* Buttons in Resources */,
 				03AB4A1927A6A72200A48DDE /* Assets.xcassets in Resources */,
+				03AD50B327C787EF00AFD63F /* Assets.xcassets in Resources */,
+				03AD50AC27C784DE00AFD63F /* Shared in Resources */,
+				03AD50B427C787EF00AFD63F /* Lists in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,54 +216,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA1D3FEF27C3B2A60066E594 /* CustomTabBar.swift in Sources */,
-				AA6DB5FB27BE5B6100108E9D /* FeedBack.swift in Sources */,
 				AA1D3FF327C4F82F0066E594 /* SideBar.swift in Sources */,
-				AA1D3FEA27C3A5070066E594 /* EscButton.swift in Sources */,
-				AA6DB5F927BE5B6100108E9D /* InfoButton.swift in Sources */,
-				AA1D3FD227C3A5070066E594 /* SeachDataButton.swift in Sources */,
-				AA1D3FCF27C3A5070066E594 /* MailButton.swift in Sources */,
-				AA1D3FD727C3A5070066E594 /* ContinueNotPhotoButton.swift in Sources */,
-				AA1D3FE827C3A5070066E594 /* GoGoButton.swift in Sources */,
-				AA1D3FD927C3A5070066E594 /* OpenButton.swift in Sources */,
-				AA1D3FCE27C3A5070066E594 /* ChangeSaveButton.swift in Sources */,
-				AA1D3FD627C3A5070066E594 /* ReadyButton.swift in Sources */,
-				AA6DB5FE27BE5B6100108E9D /* EnterButton.swift in Sources */,
 				03AB4A2427A6ACDF00A48DDE /* classes.swift in Sources */,
 				AA1D3FED27C3A6EE0066E594 /* NavigationView.swift in Sources */,
-				AA6DB5F827BE5B6100108E9D /* YellowButton.swift in Sources */,
-				AA1D3FE127C3A5070066E594 /* AddfeedbackButton.swift in Sources */,
-				AA1D3FDB27C3A5070066E594 /* StayButton.swift in Sources */,
-				AA6DB60427BE6ABE00108E9D /* WashListView.swift in Sources */,
-				AA1D3FDE27C3A5070066E594 /* PhotoMadeButton.swift in Sources */,
-				AA1D3FE627C3A5070066E594 /* NotButton.swift in Sources */,
-				AA1D3FDA27C3A5070066E594 /* AgreeButton.swift in Sources */,
-				AA1D3FE227C3A5070066E594 /* SiteButton.swift in Sources */,
-				AA1D3FDD27C3A5070066E594 /* CallButton.swift in Sources */,
-				AA1D3FE427C3A5070066E594 /* ChangePhotoButton.swift in Sources */,
-				AA1D3FDF27C3A5070066E594 /* NumTelButton.swift in Sources */,
-				AA6DB60227BE5CAD00108E9D /* WashListItem.swift in Sources */,
-				AA1D3FD427C3A5070066E594 /* ApplyButton.swift in Sources */,
 				03AB4A1727A6A72200A48DDE /* ContentView.swift in Sources */,
-				AA1D3FD027C3A5070066E594 /* TrashSmallButton.swift in Sources */,
-				AA6DB5FF27BE5B6100108E9D /* ServicesButton.swift in Sources */,
-				AA1D3FEB27C3A5070066E594 /* ChooseDataButton.swift in Sources */,
-				AA1D3FE727C3A5070066E594 /* GoButton.swift in Sources */,
-				AA1D3FE027C3A5070066E594 /* VerifyButton.swift in Sources */,
-				AA6DB5FD27BE5B6100108E9D /* MoreButton.swift in Sources */,
-				AA1D3FD827C3A5070066E594 /* CancelButton.swift in Sources */,
-				AA1D3FE327C3A5070066E594 /* AddCarButton.swift in Sources */,
+				03AD50B127C787EF00AFD63F /* HeadMenu.swift in Sources */,
 				AA1D3FF127C3ECA50066E594 /* CustomTabNav.swift in Sources */,
-				AA6DB5FC27BE5B6100108E9D /* Button1.swift in Sources */,
-				AA1D3FD327C3A5070066E594 /* ChooseTimeButton.swift in Sources */,
-				AA1D3FE527C3A5070066E594 /* SavePhotoButton.swift in Sources */,
 				03AB4A1527A6A72200A48DDE /* OOPApp.swift in Sources */,
-				AA1D3FDC27C3A5070066E594 /* ChooseServiceButton.swift in Sources */,
-				AA1D3FE927C3A5070066E594 /* AddButton.swift in Sources */,
-				AA1D3FD527C3A5070066E594 /* NetSmallButton.swift in Sources */,
 				03FF293827ABE9E100AA4A2E /* Buttons.swift in Sources */,
-				AA6DB5FA27BE5B6100108E9D /* СontinueButton.swift in Sources */,
-				AA1D3FD127C3A5070066E594 /* NetButton.swift in Sources */,
-				AA6DB5EF27BE56E400108E9D /* SelectButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

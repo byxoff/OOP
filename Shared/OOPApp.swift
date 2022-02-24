@@ -7,11 +7,10 @@
 
 import SwiftUI
 
-@main
 struct OOPApp: App {
     var body: some Scene {
         WindowGroup {
-            SideBar()
+            HeadMenu()
         }
     }
 }
